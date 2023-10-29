@@ -8,7 +8,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.121.903.0 (23.09)"
+        "value": "2.122.746.0 (23.10)"
       },
       {
         "name": "PBI_ProTooling",
@@ -1191,6 +1191,77 @@
           }
         ],
         "showAsVariationsOnly": true
+      },
+      {
+        "name": "tbSdjo",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "03eb3827040c407ebd4d77e0802cbc70"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "7390e74d-e3b2-469f-8f5e-fda45f2040fb",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Nm",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "lineageTag": "d8640c51-1185-42ca-956f-07197238ee19",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "AnoNascimento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "lineageTag": "8a30208c-fdd4-4c25-a480-93c949adadd8",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "24aabd2a-7569-449e-a2a1-1779e7e985ea",
+        "partitions": [
+          {
+            "name": "tbSdjo",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
       }
     ]
   }
