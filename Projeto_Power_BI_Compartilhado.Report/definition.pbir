@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Projeto_Power_BI_Compartilhado.Dataset"
+    },
+    "byConnection": null
+  }
+}
